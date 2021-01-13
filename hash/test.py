@@ -1,8 +1,4 @@
-dict = {'1': '2',
-        '2': '3'}
-
-for i in dict:
-    print(i, dict[i])
-
+l = [1, 2, 3, 4, 5, 6]
+print(l[2:])
     
 
