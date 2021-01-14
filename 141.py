@@ -1,0 +1,21 @@
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+class Solution:
+    def hasCycle(head):
+        if head == None:
+            return False
+        
+        fast = head 
+        slow = head
+        while fast != None and fast.next != None:
+            slow = slow.next
+            fast = fast.next.next
+            if fast == slow:
+                return True
+        return False
+            
+
+
