@@ -8,3 +8,17 @@ def insertionSort(nums):
         nums[i+2] = val
 
     return nums
+
+
+
+
+
+
+
+
+
+
+
+
+
+
